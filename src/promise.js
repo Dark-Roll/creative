@@ -25,4 +25,4 @@ delay(()=>console.log('我是帥哥'),1000)
             ()=>console.log('我是修哥' + time),
             500
         )
-    })
+    }) 

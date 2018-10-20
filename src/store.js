@@ -1,10 +1,10 @@
-import {createStore ,combineReducers} from 'redux';
+import { createStore, combineReducers } from 'redux';
 import room from './reducer/room';
-import stickyNote from './reducer/stickyNote' ;
+import stickyNote from './reducer/stickyNote';
 
-let reducer = combineReducers({room,stickyNote});
+let reducer = combineReducers({ room, stickyNote });
 const store = createStore(
-    reducer, 
+    reducer,
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
 
